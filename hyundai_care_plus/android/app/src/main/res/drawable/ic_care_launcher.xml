@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft circular glow -->
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.12"
+        android:pathData="
+            M54,8
+            A46,46 0,1 0,54,100
+            A46,46 0,1 0,54,8" />
+
+    <!-- Main car body -->
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M24,61
+            L29,43
+            C30,39 33,36 37,36
+            L71,36
+            C75,36 78,39 79,43
+            L84,61
+            L84,76
+            C84,79 82,81 79,81
+            L74,81
+            C72,81 70,79 70,77
+            L70,74
+            L38,74
+            L38,77
+            C38,79 36,81 34,81
+            L29,81
+            C26,81 24,79 24,76
+            Z" />
+
+    <!-- Windshield -->
+
+    <path
+        android:fillColor="#002C5F"
+        android:pathData="
+            M34,43
+            L74,43
+            L78,57
+            L30,57
+            Z" />
+
+    <!-- Windshield divider -->
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M52,43
+            L56,43
+            L56,57
+            L52,57
+            Z" />
+
+    <!-- Left headlight -->
+
+    <path
+        android:fillColor="#002C5F"
+        android:pathData="
+            M29,62
+            C29,60 31,59 34,59
+            L40,59
+            L40,65
+            L31,65
+            C30,65 29,64 29,62
+            Z" />
+
+    <!-- Right headlight -->
+
+    <path
+        android:fillColor="#002C5F"
+        android:pathData="
+            M68,59
+            L77,59
+            C80,59 81,60 81,62
+            C81,64 80,65 79,65
+            L68,65
+            Z" />
+
+    <!-- Left wheel -->
+
+    <path
+        android:fillColor="#002C5F"
+        android:pathData="
+            M27,73
+            A7,7 0,1 0,41,73
+            A7,7 0,1 0,27,73" />
+
+    <!-- Right wheel -->
+
+    <path
+        android:fillColor="#002C5F"
+        android:pathData="
+            M67,73
+            A7,7 0,1 0,81,73
+            A7,7 0,1 0,67,73" />
+
+    <!-- Care sparkle -->
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M83,16
+            L86,23
+            L93,26
+            L86,29
+            L83,36
+            L80,29
+            L73,26
+            L80,23
+            Z" />
+
+</vector>
